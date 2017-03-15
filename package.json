@@ -12,7 +12,11 @@
   },
   "keywords": [
     "spinner",
-    "loader"
+    "loader",
+    "loading",
+    "spin",
+    "component",
+    "javascript"
   ],
   "author": "Artiom Fotescu",
   "license": "MIT",
