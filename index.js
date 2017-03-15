@@ -11,8 +11,8 @@ var eventSpinner = function(config) {
     this.rgba = config.rgba || [255, 255, 255, 0.5];
     this.container = config.container || 'app';
     this.z = config.z || 8000;
-    this.top = config.top || '50';
-    this.top = config.top || '50vh';
+    this.top = config.top || 50;
+    this.left = config.left || 50;
 
     var divContainer = document.createElement('div');
     var divSpinner = document.createElement('div');
