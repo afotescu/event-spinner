@@ -12,7 +12,6 @@
 ##### NOTE: This can be change at anytime
 ```
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
 ```
 ##### 3. Initialize event-spinner with options in your application
 
