@@ -11,6 +11,7 @@ var eventSpinner = function(config) {
     this.rgba = config.rgba || [255, 255, 255, 0.5];
     this.container = config.container || 'app';
     this.z = config.z || 8000;
+    this.top = config.top || '50';
     this.top = config.top || '50vh';
 
     var divContainer = document.createElement('div');
@@ -29,9 +30,9 @@ var eventSpinner = function(config) {
         divContainer.style.left= '0';
         divContainer.style['background-color']= 'rgba(' + vm.rgba +')';
         divContainer.style.position= 'absolute';
-        divSpinner.style.width= '100%';
-        divSpinner.style['padding-top']= vm.top;
-        divSpinner.style['text-align']= 'center';
+        divSpinner.style.position= 'fixed';
+        divSpinner.style.top = vm.top + '%';
+        divSpinner.style.left = vm.left + '%';
         divSpinner.appendChild(spinner);
         divContainer.appendChild(divSpinner);
         document.getElementById(vm.container).appendChild(divContainer);

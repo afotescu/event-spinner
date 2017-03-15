@@ -26,7 +26,8 @@ const config = {
     rgba: [255, 255, 255, 0.5], // rgba color
     container: 'app', // id of container where spinner should be used
     z: 8000, // z-index
-    top: '50vh', // position from top
+    top: 50, // position from top
+    left: 50, // position from left
 };
 export const spinner = new eventSpinner(config);
 ```
@@ -61,7 +62,8 @@ fixed: true
 rgba: [255, 255, 255, 0.5]
 container: 'app'
 z: 8000
-top: '50vh'
+top: 50
+left: 50
 ```
 
 # Example
