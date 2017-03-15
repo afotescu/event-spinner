@@ -1,0 +1,23 @@
+{
+  "name": "event-spinner",
+  "version": "1.0.0",
+  "description": "An event based spinner",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heyEllex/event-spinner.git"
+  },
+  "keywords": [
+    "spinner",
+    "loader"
+  ],
+  "author": "Artiom Fotescu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/heyEllex/event-spinner/issues"
+  },
+  "homepage": "https://github.com/heyEllex/event-spinner#readme"
+}
