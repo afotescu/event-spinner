@@ -22,7 +22,7 @@ var eventSpinner = function(config) {
     spinner.className = 'fa ' + this.spinner + ' ' + this.animation + ' ' + this.size + ' ' + this.fixed;
     var vm = this;
     event.addListener('addSpinner', function() {
-        divContainer.style.display = null;
+        divContainer.style.display = '';
         divContainer.style.width= '100%';
         divContainer.style.height= '100%';
         divContainer.style['z-index']= vm.z;
