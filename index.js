@@ -35,7 +35,9 @@ var eventSpinner = function(config) {
         divSpinner.style.left = vm.left + '%';
         divSpinner.appendChild(spinner);
         divContainer.appendChild(divSpinner);
-        document.getElementById(vm.container).appendChild(divContainer);
+        var container = document.getElementById(vm.container);
+        container.style.position = 'relative';
+        container.appendChild(divContainer);
     });
 
     event.addListener('removeSpinner', function() {
