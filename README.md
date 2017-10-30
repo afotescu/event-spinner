@@ -54,16 +54,18 @@ const getSomeData = () => {
 
 default props: In case you don't pass the props
 
-```
-spinner: 'fa-spinner'
-animation: 'fa-spin'
-size: 'fa-3x' 
-fixed: true
-rgba: [255, 255, 255, 0.5]
-container: 'app'
-z: 8000
-top: 50
-left: 50
+```javascript
+    {
+         spinner: 'fa-spinner',
+         animation: 'fa-spin',
+         size: 'fa-3x',
+         fixed: true,
+         rgba: [255, 255, 255, 0.5],
+         container: 'app',
+         z: 8000,
+         top: 50,
+         left: 50,
+     }
 ```
 
 # Example
